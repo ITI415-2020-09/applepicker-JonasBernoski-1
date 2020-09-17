@@ -307,11 +307,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 170079147229940733, guid: d0356e01763710246b6fccf9e4f8dbd8, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 170079147229940733, guid: d0356e01763710246b6fccf9e4f8dbd8, type: 3}
       propertyPath: speed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 170079147229940733, guid: d0356e01763710246b6fccf9e4f8dbd8, type: 3}
+      propertyPath: chanceToChangeDirections
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 5725309599170319715, guid: d0356e01763710246b6fccf9e4f8dbd8, type: 3}
       propertyPath: m_Name
