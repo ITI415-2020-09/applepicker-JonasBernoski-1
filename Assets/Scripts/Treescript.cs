@@ -38,13 +38,13 @@ public class Treescript : MonoBehaviour
         if (pos.x < -leftAndRightEdge) {
             speed = Mathf.Abs(speed);
         } else if (pos.x > leftAndRightEdge) {
-            speed = Mathf.Abs(speed);
+            speed = -Mathf.Abs(speed);
         }
     }
     void FixedUpdate(){
 
         if (Random.value < chanceToChangeDirections){
-            speed *= 1;
+            speed *= -1;
 
         }
     }
